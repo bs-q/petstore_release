@@ -24,6 +24,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="petstore">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
@@ -39,7 +40,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=4140917905');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1323901933');
       });
     }
   </script>
